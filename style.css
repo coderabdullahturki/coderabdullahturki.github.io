@@ -162,7 +162,7 @@
     transition: all 0.5s ease 0s;
 }
 .single-content h3:hover a{
-    color: #5FC7AE;
+    color: #e3bc94;
 }
 .single-content ul{
     margin: 0;
@@ -179,7 +179,7 @@
     margin-right: 0px;
 }
 .single-content ul li i{
-    color: #5fc7ae;
+    color: #e3bc94;
     font-size: 18px;
     margin-right: 10px;
     position: relative;
@@ -254,7 +254,7 @@ td.pink{background: #FF91B8}
     width: 100%;
     height: 100%;
     content: "";
-    background: rgba(95, 199, 174, 0.79) none repeat scroll 0 0 padding-box content-box;
+    background: rgba(227, 188, 148, 0.79) none repeat scroll 0 0 padding-box content-box;
     opacity: 0;
     transform: scaleY(0);
     padding: 15px;
@@ -325,7 +325,7 @@ td.pink{background: #FF91B8}
     background: #fff;
 }
 .trainer-hover ul li:hover a{
-    color: #5FC7AE
+    color: #e3bc94;
 }
 /*----------------------------------------*/
 /*  5. Gallery Area
@@ -338,7 +338,7 @@ td.pink{background: #FF91B8}
     transition: all 0.5s ease 0s;
 }
 .portfolio-img::after {
-  background: rgba(95, 199, 174, 0.7) none repeat scroll 0 0 padding-box content-box;
+  background: rgba(227, 188, 148, 0.7) none repeat scroll 0 0 padding-box content-box;
   padding: 7px;
 }
 .portfolio-img::before{
@@ -349,7 +349,7 @@ td.pink{background: #FF91B8}
     height: 100%;
     content: "";
     opacity: 0;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(227, 188, 148, 0.7);
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
@@ -436,7 +436,7 @@ td.pink{background: #FF91B8}
 }
 .event-content h4{
     font-family: 'Montserrat', sans-serif;
-    color: #5fc7ae;
+    color: #e3bc94;
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 10px;
@@ -498,7 +498,7 @@ td.pink{background: #FF91B8}
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
 }
-.blog-content a:hover{color: #5FC7AE}
+.blog-content a:hover{color: #e3bc94;}
 /*----------------------------------------*/
 /*  8. Pricing Area
 /*----------------------------------------*/
@@ -506,7 +506,7 @@ td.pink{background: #FF91B8}
     box-shadow: 0 0 4px 4px #E2E2E2;
 }
 .single-table:hover .table-head h2, .single-table:hover .table-body, .single-table:hover .table-body a{
-    background: #5FC7AE;
+    background: #e3bc94;
 }
 .single-table:hover .table-head h2, .single-table:hover .table-body ul li, .single-table:hover .table-body a{
     color: #fff;
@@ -573,7 +573,7 @@ td.pink{background: #FF91B8}
     background: #f1f1f1 none repeat scroll 0 0;
     border-radius: 25px;
     box-shadow: 0 0 4px 4px #e2e2e2;
-    color: #5fc7ae;
+    color: #e3bc94;
     display: inline-block;
     font-family: "Montserrat",sans-serif;
     font-size: 14px;
@@ -597,7 +597,7 @@ td.pink{background: #FF91B8}
   margin-bottom: 5px;
 }
 .single-testimonial {
-    background: #5fc7ae none repeat scroll 0 0;
+    background: #e3bc94 none repeat scroll 0 0;
     color: #ffffff;
     margin: 50px 85px 48px 85px;
     padding: 48px 105px;
@@ -609,7 +609,7 @@ td.pink{background: #FF91B8}
     height: 115px;
     width: 115px;
     border-radius: 50%;
-    background: #5FC7AE;
+    background: #e3bc94;
     box-shadow: 0 0 5px 0px #ababab;
     left: -45px;
     top: -45px;
@@ -637,7 +637,7 @@ td.pink{background: #FF91B8}
   margin-top: 0px;
 }
 .testimonial-owl .owl-dot {
-  border: 1px solid #5fc7ae;
+  border: 1px solid #e3bc94;
   border-radius: 50%;
   height: 14px;
   width: 14px;
@@ -645,7 +645,7 @@ td.pink{background: #FF91B8}
   margin: 0px 5px;
 }
 .testimonial-owl .owl-dot.active {
-  border: 3px solid #5fc7ae;
+  border: 3px solid #e3bc94;
   height: 20px;
   top: 3px;
   position: relative;
@@ -664,7 +664,7 @@ td.pink{background: #FF91B8}
 /*  12. Newsletter Area
 /*----------------------------------------*/
 .newsletter-wrapper{
-    background: #5FC7AE;
+    background: #e3bc94;
     padding: 55px 200px 45px;
     margin-top: -105px;
     z-index: 2;
@@ -709,7 +709,53 @@ td.pink{background: #FF91B8}
     border-radius: 0;
     text-transform: capitalize;
 }
-#mc-form .default-btn:hover{color: #5FC7AE !important }
+#mc-form .default-btn:hover{color: #e3bc94 !important }
 #mc-form .default-btn:before {background: #fff none repeat scroll 0 0;z-index: -1}
 .newsletter-area .default-btn:before, .newsletter-area .default-btn:after{display: none}
 .contact-form form{margin-top: 50px}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+.footer-text-area{background-color: #e3bc94; color: #fff;}
+.single-footer-widget button:hover, .contact-form button:hover {
+	color: #e3bc94;
+	background: transparent;
+}
+
+.slider-content h1 span {
+	color: #e3bc94;
+}
+
+div.owl-prev, div.owl-next {background-color: #e3bc94; color: #111;}
+
+.header-contact a{border-color: #e3bc94;}
+.banner-btn{border-color: #e3bc94;}
+.banner-btn:hover {
+	background: #e3bc94;
+  color: #111;
+  border-color: #e3bc94;
+}
+
+.single-img::after, .portfolio-img::after {
+	position: absolute;
+	background-color: rgba(227, 188, 148, 0.79);
+}
+
+#scrollUp {
+	background: #e3bc94 none repeat scroll 0 0;
+}
